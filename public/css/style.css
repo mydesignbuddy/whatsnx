@@ -1,0 +1,39 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px; }
+
+.jumbotron {
+  background-image: url(http://lorempixel.com/1800/360/abstract/);
+  background-repeat: repeat-x;
+  color: #FFF;
+  text-shadow: 1px 1px 10px #000; }
+  .jumbotron h1.whatsnx-logo {
+    width: 400px;
+    height: 106px;
+    background-image: url(../img/whats-nx-logo.png);
+    background-size: 400px 106px;
+    background-repeat: no-repeat; }
+    .jumbotron h1.whatsnx-logo span {
+      display: none; }
+  .jumbotron a {
+    color: #fff; }
+  .jumbotron a.btn {
+    text-shadow: none; }
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+a {
+  color: #00B7FF; }
+
+.navbar-brand {
+  width: 95px;
+  height: 25px;
+  background-image: url(../img/whats-nx-logo.png);
+  background-size: 95px 25px;
+  background-repeat: no-repeat;
+  margin-top: 12px;
+  margin-right: 15px; }
+  .navbar-brand span {
+    display: none; }
