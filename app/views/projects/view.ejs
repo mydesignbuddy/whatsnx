@@ -1,0 +1,75 @@
+<% include ../header %>
+
+<div class="jumbotron">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img class="project-logo" src="<%-project.logoImage%>" />
+                    </div>
+                    <div class="col-sm-9">
+                        <h1><span><%-project.title%></span></h1>
+                        <p><%-project.tagLine%></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <p>41 backers</p>
+                <p>$2,220 pledged of $30,000 goal</p>
+                <p>28 days to go</p>
+                <hr/>
+                <p>
+                    <a class="btn btn-success btn-lg" href="#" role="button">Back This &raquo;</a> 
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Join This &raquo;</a>
+                </p>
+            </div>
+        </div>
+      </div>
+</div>
+  
+    <div class="container">
+  
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div>
+
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#timeline" aria-controls="timeline" role="tab" data-toggle="tab">Timeline</a></li>
+                    <li role="presentation"><a href="#campaign" aria-controls="campaign" role="tab" data-toggle="tab">Campaign</a></li>
+                    <li role="presentation"><a href="#comments" aria-controls="comments" role="tab" data-toggle="tab">Comments</a></li>
+                    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="timeline">...timeline</div>
+                    <div role="tabpanel" class="tab-pane" id="campaign">...campaign</div>
+                    <div role="tabpanel" class="tab-pane" id="comments">...comments</div>
+                    <div role="tabpanel" class="tab-pane" id="settings">...settings</div>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-4">
+          <h2>Categories</h2>
+          <ul>
+              <li>Art</li>
+              <li>Culture</li>
+              <li>Productivity</li>
+              <li>Training</li>
+              <li>Self Improvement</li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+<style>
+.jumbotron {
+    background-image: url(<%-project.headerImage%>);
+}    
+</style>
+
+<% include ../footer %>

@@ -19,3 +19,17 @@ a {
             display: none;
         }
 }
+.navbar{
+    .search{
+        display: inline-block;
+    }
+    .login {
+        margin-top: 0.6em;
+        .btn {
+           margin-left: 0.25em; 
+        }
+    }
+}
+.project-logo {
+    width: 180px;
+}

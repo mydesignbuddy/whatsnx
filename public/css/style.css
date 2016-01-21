@@ -37,3 +37,14 @@ a {
   margin-right: 15px; }
   .navbar-brand span {
     display: none; }
+
+.navbar .search {
+  display: inline-block; }
+
+.navbar .login {
+  margin-top: 0.6em; }
+  .navbar .login .btn {
+    margin-left: 0.25em; }
+
+.project-logo {
+  width: 180px; }
